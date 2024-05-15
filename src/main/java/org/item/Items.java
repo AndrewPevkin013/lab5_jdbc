@@ -1,6 +1,6 @@
 package org.item;
 
-import java.util.Date;
+import java.sql.Date;
 
 public class Items {
     private int id;

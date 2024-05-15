@@ -5,5 +5,5 @@ import org.item.Items;
 public interface IDaoItem {
     Items searchByID(int id);
     void create(Items item);
-    void close();
+    void searchByKeyword(String likeText);
 }
