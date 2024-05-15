@@ -11,14 +11,8 @@ public class Items {
     private String price;
     private String version;
 
-    public Items(int id, String title, String artist, Date releasedate, String listPrice, String price, String version) {
-        this.id = id;
-        this.title = title;
-        this.artist = artist;
-        this.releasedate = releasedate;
-        this.listPrice = listPrice;
-        this.price = price;
-        this.version = version;
+    public Items() {
+
     }
 
     public int getId()

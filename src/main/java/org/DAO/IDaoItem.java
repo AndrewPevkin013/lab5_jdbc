@@ -1,10 +1,9 @@
-package org.repository;
+package org.DAO;
 
 import org.item.Items;
 
-public interface ItemRepository {
+public interface IDaoItem {
     Items searchByID(int id);
     void create(Items item);
     void close();
-    boolean exists(int id);
 }
