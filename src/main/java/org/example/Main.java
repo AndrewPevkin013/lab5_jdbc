@@ -23,11 +23,10 @@ public class Main {
 
             // 3
             Items musicItem2 = new Items();
-            Date date = new Date(2015-11-9);
             musicItem2.setTitle("Hello");
             musicItem2.setArtist("Adele");
             musicItem2.setPrice("19.99");
-            musicItem2.setReleasedate(date);
+            musicItem2.setReleasedate(Date.valueOf("2015-11-9"));
             musicItem2.setListPrice("13.7");
             musicItem2.setVersion("1");
             item.create(musicItem2);
